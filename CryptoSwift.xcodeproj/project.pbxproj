@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -124,6 +124,8 @@
 		81F279DF2181F5A000449EDA /* ScryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279DE2181F5A000449EDA /* ScryptTests.swift */; };
 		81F279E12181F5C500449EDA /* ScryptTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279E02181F5C500449EDA /* ScryptTestsPerf.swift */; };
 		81F279E22181F5C500449EDA /* ScryptTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F279E02181F5C500449EDA /* ScryptTestsPerf.swift */; platformFilter = ios; };
+		9779E0932BEA35C700FC1CEC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9779E0922BEA35C700FC1CEC /* PrivacyInfo.xcprivacy */; };
+		9779E0942BEA35D900FC1CEC /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9779E0922BEA35C700FC1CEC /* PrivacyInfo.xcprivacy */; };
 		E3FD2D531D6B81CE00A9F35F /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD2D511D6B813C00A9F35F /* Error+Extension.swift */; };
 		E6200E141FB9A7AE00258382 /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6200E131FB9A7AE00258382 /* HKDF.swift */; };
 		E6200E171FB9B68C00258382 /* HKDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6200E151FB9B67C00258382 /* HKDFTests.swift */; };
@@ -192,6 +194,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9779E0942BEA35D900FC1CEC /* PrivacyInfo.xcprivacy in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +326,7 @@
 		81F279DC2181F58300449EDA /* Scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
 		81F279DE2181F5A000449EDA /* ScryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryptTests.swift; sourceTree = "<group>"; };
 		81F279E02181F5C500449EDA /* ScryptTestsPerf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryptTestsPerf.swift; sourceTree = "<group>"; };
+		9779E0922BEA35C700FC1CEC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = file; path = PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 		E3FD2D511D6B813C00A9F35F /* Error+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
 		E6200E131FB9A7AE00258382 /* HKDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKDF.swift; sourceTree = "<group>"; };
 		E6200E151FB9B67C00258382 /* HKDFTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKDFTests.swift; sourceTree = "<group>"; };
@@ -501,6 +505,7 @@
 		75EC52361EE8B6CA0048EB3B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9779E0922BEA35C700FC1CEC /* PrivacyInfo.xcprivacy */,
 				75EC52371EE8B6CA0048EB3B /* CryptoSwift */,
 				75EC527A1EE8B6CA0048EB3B /* CryptoSwift.h */,
 			);
@@ -795,6 +800,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9779E0932BEA35C700FC1CEC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
