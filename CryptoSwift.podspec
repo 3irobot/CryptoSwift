@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
   s.source_files  = "Sources/CryptoSwift/**/*.swift"
-  s.resources     = 'Sources/*.{png,bundle,xcprivacy}'
+  s.resource_bundles = {'CryptoSwift' => ['Sources/Privacyinfo.xcprivacy']}
   s.requires_arc = true
 end
